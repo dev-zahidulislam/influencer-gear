@@ -276,9 +276,6 @@ footer {
     justify-content: center;
   }
 
-  .container {
-  }
-
   .hero {
     padding: 0px 50px;
   }
@@ -286,16 +283,17 @@ footer {
     flex-direction: column-reverse;
     text-align: center;
     background-position:
-      0px 0px,
+      0px 17px,
       center;
     background-size: contain;
-    padding-top: 75px;
+    /* padding-top: 50px; */
   }
 
   .content-image img {
     width: 75%;
     padding-top: 0px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    object-fit: cover;
   }
   .content-details h1 {
     font-size: 1.75rem;
