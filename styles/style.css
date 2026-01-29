@@ -18,7 +18,7 @@ nav {
   width: 75%;
   max-width: 1200px;
   margin: 87px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,3 +44,19 @@ nav h5 {
   color: #3a3a3a;
 }
 /* end navbar section */
+
+/* media query section */
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 10px;
+    width: 75%;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .nav-menu {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
