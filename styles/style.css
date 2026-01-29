@@ -12,10 +12,32 @@ body {
 }
 
 /* shared style */
+.btn-primary {
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+i {
+  margin-left: 12px;
+}
+
+button:hover {
+  background-color: #008080;
+}
+
+.hide {
+  display: none;
+}
 
 /* start navbar section */
 nav {
-  width: 75%;
+  /* width: 75%; */
   max-width: 1200px;
   margin: 87px auto;
   /* border: 2px solid red; */
@@ -45,11 +67,41 @@ nav h5 {
 }
 /* end navbar section */
 
+/* start hero section */
+.hero-content {
+  max-width: 1188px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 133px; */
+}
+
+.hero-details {
+  width: 582px;
+  border: 1px solid red;
+}
+
+.content-details h1 {
+  font-size: 3.25rem;
+  font-weight: bold;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+
+.content-details p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+/* end hero section */
+
 /* media query section */
 @media screen and (max-width: 576px) {
   nav {
     padding: 10px;
-    width: 75%;
+    /* width: 75%; */
     flex-direction: column;
     margin-top: 50px;
   }
