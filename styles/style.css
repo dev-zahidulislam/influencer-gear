@@ -93,6 +93,16 @@ nav h5 {
 }
 /* end hero section */
 
+/* start logo section */
+
+.business-logo {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+/* end logo section */
+
 /* media query section */
 @media screen and (max-width: 576px) {
   nav {
@@ -115,7 +125,7 @@ nav h5 {
     flex-direction: column-reverse;
     text-align: center;
     background-position:
-      0px 50px,
+      0px -50px,
       center;
     background-size: contain;
     padding-top: 0px;
@@ -123,7 +133,8 @@ nav h5 {
 
   .content-image img {
     width: 75%;
-    padding-top: 107px;
+    padding-top: 0px;
+    margin-bottom: 10px;
   }
   .content-details h1 {
     font-size: 1.75rem;
@@ -136,5 +147,16 @@ nav h5 {
 
   .content-details p {
     font-size: 0.87rem;
+  }
+
+  .business-logo {
+    width: 75%;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 30px auto;
+  }
+
+  .ecommerce-logo img {
+    width: 20%;
   }
 }
