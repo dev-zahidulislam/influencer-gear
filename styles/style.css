@@ -282,10 +282,10 @@ footer {
     flex-direction: column-reverse;
     text-align: center;
     background-position:
-      0px -50px,
+      0px 0px,
       center;
     background-size: contain;
-    padding-top: 0px;
+    padding-top: 75px;
   }
 
   .content-image img {
