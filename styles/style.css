@@ -208,6 +208,10 @@ nav h5 {
   margin-bottom: 16px;
 }
 
+/* .feature img{
+  max-width: 100%;
+} */
+
 .btn-second {
   border-radius: 0px;
 }
@@ -277,5 +281,22 @@ nav h5 {
 
   .box {
     margin: 0 auto;
+  }
+
+  .feature {
+    flex-direction: column-reverse;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .feature-details {
+    width: 100%;
+  }
+
+  .feature img {
+    width: 100%;
+    margin-top: 20px;
   }
 }
