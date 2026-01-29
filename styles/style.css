@@ -283,17 +283,16 @@ footer {
     flex-direction: column-reverse;
     text-align: center;
     background-position:
-      0px 17px,
+      0px 27px,
       center;
-    background-size: contain;
+    background-size: 100%;
     /* padding-top: 50px; */
   }
 
   .content-image img {
-    width: 75%;
+    width: 80%;
     padding-top: 0px;
     padding-bottom: 10px;
-    object-fit: cover;
   }
   .content-details h1 {
     font-size: 1.75rem;
