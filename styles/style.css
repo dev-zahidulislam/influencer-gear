@@ -37,10 +37,8 @@ button:hover {
 
 /* start navbar section */
 nav {
-  /* width: 75%; */
   max-width: 1200px;
-  margin: 87px auto;
-  /* border: 2px solid red; */
+  margin: 50px auto 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,17 +67,15 @@ nav h5 {
 
 /* start hero section */
 .hero-content {
+  background-image: url("/images/Circle\ design.svg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-top: 70px;
   max-width: 1188px;
   margin: 0px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 133px; */
-}
-
-.hero-details {
-  width: 582px;
-  border: 1px solid red;
 }
 
 .content-details h1 {
@@ -101,7 +97,7 @@ nav h5 {
 @media screen and (max-width: 576px) {
   nav {
     padding: 10px;
-    /* width: 75%; */
+    width: 75%;
     flex-direction: column;
     margin-top: 50px;
   }
@@ -110,5 +106,35 @@ nav h5 {
     margin-top: 10px;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .hero {
+    padding: 0px 50px;
+  }
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+    background-position:
+      0px 50px,
+      center;
+    background-size: contain;
+    padding-top: 0px;
+  }
+
+  .content-image img {
+    width: 75%;
+    padding-top: 107px;
+  }
+  .content-details h1 {
+    font-size: 1.75rem;
+    margin-top: 40px;
+  }
+
+  .content-details br {
+    display: none;
+  }
+
+  .content-details p {
+    font-size: 0.87rem;
   }
 }
