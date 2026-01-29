@@ -47,6 +47,9 @@ nav {
 nav .nav-menu {
   display: flex;
   gap: 24px;
+  :hover {
+    color: #008080;
+  }
 }
 
 nav li {
@@ -62,6 +65,7 @@ nav h5 {
   font-size: 1.5rem;
   font-weight: bold;
   color: #3a3a3a;
+  cursor: pointer;
 }
 /* end navbar section */
 
@@ -131,6 +135,7 @@ nav h5 {
   background: rgba(255, 255, 255, 1);
   padding: 10px;
   gap: 30px;
+  cursor: pointer;
 }
 
 .box h4 {
@@ -216,6 +221,44 @@ nav h5 {
   border-radius: 0px;
 }
 /* end feature section */
+
+/* start footer section */
+footer {
+  background-color: #0a0826;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-container {
+  /* width: 262px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.footer-content {
+  width: 275px;
+  margin: 0 auto;
+}
+
+.footer-content h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.footer-content p {
+  font-size: 0.87rem;
+  font-weight: bold;
+  color: #c3c4cc;
+  margin-bottom: 3px;
+}
+
+.footer-content img {
+  margin-top: 17px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+/* end footer section */
 
 /* media query section */
 @media screen and (max-width: 576px) {
