@@ -234,4 +234,13 @@ nav h5 {
   .ecommerce-logo img {
     width: 20%;
   }
+
+  .card-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .box {
+    margin: 0 auto;
+  }
 }
