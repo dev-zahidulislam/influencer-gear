@@ -267,12 +267,16 @@ footer {
     width: 75%;
     flex-direction: column;
     margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   .nav-menu {
     margin-top: 10px;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .container {
   }
 
   .hero {
