@@ -178,6 +178,41 @@ nav h5 {
 
 /* end cards section */
 
+/* start feature section */
+.feature {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.feature-details {
+  width: 610px;
+}
+
+.feature-details h1 {
+  font-size: 2.37rem;
+  font-weight: bold;
+  color: #0a0826;
+  margin-bottom: 16px;
+}
+
+.feature-details p {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-bottom: 16px;
+}
+
+.btn-second {
+  border-radius: 0px;
+}
+/* end feature section */
+
 /* media query section */
 @media screen and (max-width: 576px) {
   nav {
